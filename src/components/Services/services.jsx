@@ -7,15 +7,21 @@ const Services = ({ style, lines }) => {
       className={`services bords section-padding ${
         style === "4item" ? "lficon" : lines ? "" : "pt-0"
       }`}
+      style={{ marginTop: "10%" }}
     >
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8 col-md-10">
             <div className="sec-head  text-center">
               <h6 className="wow fadeIn" data-wow-delay=".5s">
-                NUESTROS CLIENTES
+                ECOFAST
               </h6>
-              <h3 className="wow color-font">Nos Distinguen Por ...</h3>
+              <h3 className="wow color-font">Construcciones inteligentes...</h3>
+              <p>
+                Nuestro modelo constructivo de tecnología EcoSustentable, es una
+                solución edilicia basada en los materiales necesarios de acuerdo
+                a la casa que desarrollamos
+              </p>
             </div>
           </div>
         </div>
@@ -54,7 +60,15 @@ const Services = ({ style, lines }) => {
                   data-wow-delay=".5s"
                 >
                   <div className="item-box md-mb50">
-                    <span className={`icon ${feature.icon}`}></span>
+                    {feature.icon === "pe-7s-menu" ? (
+                      <span
+                        className={`icon ${feature.icon}`}
+                        style={{ transform: "rotate(90deg)" }}
+                      ></span>
+                    ) : (
+                      <span className={`icon ${feature.icon}`}></span>
+                    )}
+
                     <h6>{feature.title}</h6>
                     <p>{feature.content}</p>
                   </div>

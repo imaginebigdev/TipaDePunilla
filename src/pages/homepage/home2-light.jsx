@@ -5,13 +5,12 @@ import CallToAction from "../../components/Call-to-action/call-to-action";
 import Footer from "../../components/Footer/footer";
 import LightTheme from "../../layouts/Light";
 import Portfolio from "../../components/Portfolio/portfolio";
-import FullTestimonials from "../../components/Full-testimonials/full-testimonials";
 import IntroWithSlider from "../../components/Intro-with-slider/intro-with-slider";
 import appData from "../../data/app.json";
 import Blogs4 from "../../components/blogs/Blogs4/blogs4";
-
 import AboutUs from "../../components/About-us/about-us";
-import WhatsAppButton from "../../components/WhatsappButton/whatsapp-button";
+import Works from "../../components/Works/works";
+import AboutUs4 from "../../components/About-us4/about-us4";
 
 const Homepage2 = () => {
   const fixedSlider = React.useRef(null);
@@ -51,12 +50,12 @@ const Homepage2 = () => {
       <IntroWithSlider sliderRef={fixedSlider} />
       <div ref={MainContent} className="main-content">
         <AboutUs />
-        <Services style="4item" />
+        <AboutUs4 />
+        <Services style="3item" />
+        <Works />
         <Portfolio grid={3} filterPosition="center" />
         <Blogs4 />
-        <FullTestimonials noPadding />
         <CallToAction />
-        <WhatsAppButton />
         <Footer />
       </div>
     </LightTheme>
