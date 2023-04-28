@@ -18,21 +18,23 @@ const Footer = ({ hideBGCOLOR }) => {
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
                     <h6>Dirección</h6>
-                    <p className="p-footer">Av circunvalacion 4076, Córdoba</p>
+                    <p className="p-footer">
+                      Eva Perón 680, Santa María de Punilla, Córdoba
+                    </p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Email</h6>
-                    <p className="p-footer">support@gmail.com</p>
+                    <p className="p-footer">Tipaldepunilla@gmail.com</p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
                     <h6>Teléfono</h6>
-                    <p className="p-footer">+543516668134</p>
+                    <p className="p-footer">+5493513065851</p>
                   </div>
                 </li>
               </ul>
@@ -87,13 +89,25 @@ const Footer = ({ hideBGCOLOR }) => {
                 <img src={appData.lightLogo} alt="" />
               </div>
               <div className="social">
-                <a href="#0">
-                  <i className="fab fa-facebook-f"></i>
+                <a
+                  href="https://www.tiktok.com/@tipaldepunilla"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fab fa-tiktok"></i>
                 </a>
-                <a href="#0">
+                <a
+                  href="https://www.instagram.com/tipaldepunilla/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fab fa-instagram"></i>
                 </a>
-                <a href="#0">
+                <a
+                  href="https://www.youtube.com/@tipaldepunilla"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fab fa-youtube"></i>
                 </a>
               </div>

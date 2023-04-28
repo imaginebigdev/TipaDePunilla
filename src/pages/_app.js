@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>GEARS Automatismos</title>
-        <link rel="icon" href="/img/logo-gear.png" />
+        <link rel="icon" href="/img/favicon.ico" />
       </Head>
       <Cursor />
       <LoadingScreen />
