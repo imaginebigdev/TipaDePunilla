@@ -92,14 +92,13 @@ const IntroWithSlider = ({ sliderRef }) => {
                         </div>
                       </div>
                     </div>
-                    <Particles id="particles-js" options={particlesConfig} />
                   </div>
                 </div>
               </SwiperSlide>
             ))}
           </Swiper>
         ) : null}
-        <div className="setone setwo">
+        {/* <div className="setone setwo">
           <div
             ref={navigationNextRef}
             className="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer"
@@ -113,16 +112,28 @@ const IntroWithSlider = ({ sliderRef }) => {
             <i className="fas fa-chevron-left"></i>
           </div>
         </div>
-        <div ref={paginationRef} className="swiper-pagination top botm"></div>
+        <div ref={paginationRef} className="swiper-pagination top botm"></div> */}
 
         <div className="social-icon">
-          <a href="#0">
-            <i className="fab fa-facebook-f"></i>
+          <a
+            href="https://www.tiktok.com/@tipaldepunilla"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-tiktok"></i>
           </a>
-          <a href="#0">
+          <a
+            href="https://www.instagram.com/tipaldepunilla/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fab fa-instagram"></i>
           </a>
-          <a href="#0">
+          <a
+            href="https://www.youtube.com/@tipaldepunilla"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fab fa-youtube"></i>
           </a>
         </div>
