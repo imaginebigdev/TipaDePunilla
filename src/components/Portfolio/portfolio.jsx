@@ -18,7 +18,7 @@ const Portfolio = ({ grid, filterPosition }) => {
               <h6 className="wow fadeIn" data-wow-delay=".5s">
                 LA MAS ALTA CALIDAD
               </h6>
-              <h3 className="wow color-font">Nuestros Productos.</h3>
+              <h3 className="wow color-font">Galeria de imagenes</h3>
             </div>
           </div>
         </div>
@@ -38,9 +38,9 @@ const Portfolio = ({ grid, filterPosition }) => {
               <span data-filter="*" className="active">
                 TODOS
               </span>
-              <span data-filter=".brand">MOTORES</span>
-              <span data-filter=".web">ACCESORIOS</span>
-              <span data-filter=".graphic">INSUMOS</span>
+              <span data-filter=".brand">EXTERIOR</span>
+              <span data-filter=".web">INTERIOR</span>
+              <span data-filter=".graphic">PLANOS</span>
             </div>
           </div>
 

@@ -1,26 +1,20 @@
 [
-    {
-        "id": 1,
-        "icon": "pe-7s-lock",
-        "title": "SEGURIDAD",
-        "content": "Mayor seguridad y comodidad en la automatización de sus portones."
-    },
-    {
-        "id": 2,
-        "icon": "pe-7s-tools",
-        "title": "CALIDAD",
-        "content": "Productos de alta calidad y tecnología de punta, ofrecidos por las mejores marcas del mercado."
-    },
-    {
-        "id": 3,
-        "icon": "pe-7s-smile",
-        "title": "ATENCIÓN",
-        "content": "Satisfacción total del cliente, con el compromiso de superar sus expectativas en cada transacción."
-    },
-    {
-        "id": 4,
-        "icon": "pe-7s-medal",
-        "title": "TRAYECTORIA",
-        "content": "Contamos con amplia experiencia y trayectoria en el mercado, habiendo ayudado a miles de clientes a mejorar la seguridad y comodidad en sus hogares y negocios."
-    }
+  {
+    "id": 1,
+    "icon": "pe-7s-medal",
+    "title": "PRIMERA CALIDAD",
+    "content": ""
+  },
+  {
+    "id": 2,
+    "icon": "pe-7s-photo-gallery",
+    "title": "DOBLE MURO",
+    "content": ""
+  },
+  {
+    "id": 3,
+    "icon": "pe-7s-menu",
+    "title": "TRIPLE AISLAMIENTO",
+    "content": ""
+  }
 ]
