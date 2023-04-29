@@ -18,7 +18,7 @@ const Portfolio = ({ grid, filterPosition }) => {
               <h6 className="wow fadeIn" data-wow-delay=".5s">
                 LA MAS ALTA CALIDAD
               </h6>
-              <h3 className="wow color-font">Nuestros Productos.</h3>
+              <h3 className="wow color-font">Galeria de imagenes</h3>
             </div>
           </div>
         </div>
@@ -38,9 +38,9 @@ const Portfolio = ({ grid, filterPosition }) => {
               <span data-filter="*" className="active">
                 TODOS
               </span>
-              <span data-filter=".brand">MOTORES</span>
-              <span data-filter=".web">ACCESORIOS</span>
-              <span data-filter=".graphic">INSUMOS</span>
+              <span data-filter=".brand">EXTERIOR</span>
+              <span data-filter=".web">INTERIOR</span>
+              <span data-filter=".graphic">PLANOS</span>
             </div>
           </div>
 
@@ -56,16 +56,10 @@ const Portfolio = ({ grid, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/productos/dogo`}>
-                  <a className="imago wow">
-                    <img src="/img/productos/dogo.png" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>DOGO 350</h6>
-                <span>CORREDIZO ESTÁNDAR</span>
+                <a className="imago wow">
+                  <img src="/img/productos/exterior01.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
               </div>
             </div>
 
@@ -80,181 +74,10 @@ const Portfolio = ({ grid, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/productos/liebre`}>
-                  <a className="imago wow">
-                    <img src="/img/productos/libre450.png" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>LIEBRE 450</h6>
-                <span>CORREDIZO RÁPIDO</span>
-              </div>
-            </div>
-
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items brand wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/productos/dogo`}>
-                  <a className="imago wow">
-                    <img src="/img/productos/potro.png" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>POTRO 600</h6>
-                <span>CORREDIZO ESTÁNDAR</span>
-              </div>
-            </div>
-
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items brand wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/productos/liebre`}>
-                  <a className="imago wow">
-                    <img src="/img/productos/potro-plus.png" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>POTRO PLUS</h6>
-                <span>CORREDIZO ESTÁNDAR</span>
-              </div>
-            </div>
-
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items brand wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/productos/dogo`}>
-                  <a className="imago wow">
-                    <img src="/img/productos/potroplus.png" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>POTRO PLUS SPEED</h6>
-                <span>CORREDIZO RÁPIDO</span>
-              </div>
-            </div>
-
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items brand wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/productos/liebre`}>
-                  <a className="imago wow">
-                    <img src="/img/productos/toro.png" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>TORO 1000</h6>
-                <span>CORREDIZO INDUSTRIAL</span>
-              </div>
-            </div>
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items web wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/productos/dogo`}>
-                  <a className="imago wow">
-                    <img src="/img/productos/crema02.png" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>NYLON</h6>
-                <span>CREMALLERA</span>
-              </div>
-            </div>
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items brand wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/productos/dogo`}>
-                  <a className="imago wow">
-                    <img src="/img/productos/levadizo.png" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>MALVINAS</h6>
-                <span>LEVADIZO A TORSIÓN</span>
-              </div>
-            </div>
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items web wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/productos/dogo`}>
-                  <a className="imago wow">
-                    <img src="/img/productos/crema01.png" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>ACERO</h6>
-                <span>CREMALLERA</span>
+                <a className="imago wow">
+                  <img src="/img/productos/exterior02.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
               </div>
             </div>
 
@@ -269,16 +92,46 @@ const Portfolio = ({ grid, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/productos/dogo`}>
-                  <a className="imago wow">
-                    <img src="/img/productos/control.png" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
+                <a className="imago wow">
+                  <img src="/img/productos/interior01.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
               </div>
-              <div className="cont">
-                <h6>CONTROL REMOTO</h6>
-                <span>COPIADOR BRUMEC</span>
+            </div>
+
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items web wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <a className="imago wow">
+                  <img src="/img/productos/interior02.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
+              </div>
+            </div>
+
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items web wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <a className="imago wow">
+                  <img src="/img/productos/interior03.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
               </div>
             </div>
             <div
@@ -292,18 +145,13 @@ const Portfolio = ({ grid, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/productos/dogo`}>
-                  <a className="imago wow">
-                    <img src="/img/productos/placacorredizo.png" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>PLACA CORREDIZO</h6>
-                <span>PLACA CENTRAL</span>
+                <a className="imago wow">
+                  <img src="/img/productos/interior04.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
               </div>
             </div>
+
             <div
               className={`${
                 grid === 3
@@ -311,43 +159,14 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items web wow fadeInUp`}
+              } items graphic wow fadeInUp`}
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/productos/dogo`}>
-                  <a className="imago wow">
-                    <img src="/img/productos/placalevadizo.png" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>PLACA LEVADIZO</h6>
-                <span>PLACA CENTRAL</span>
-              </div>
-            </div>
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items web wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/productos/dogo`}>
-                  <a className="imago wow">
-                    <img src="/img/productos/repuestos.png" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>REPUESTOS ORIGINALES</h6>
-                <span>TODOS LOS REPUESTOS</span>
+                <a className="imago wow">
+                  <img src="/img/productos/plano01.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
               </div>
             </div>
             <div
@@ -361,16 +180,10 @@ const Portfolio = ({ grid, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/productos/dogo`}>
-                  <a className="imago wow">
-                    <img src="/img/productos/maza.png" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>MAZA ELECTROMAGNÉTICA</h6>
-                <span>ACCESORIO</span>
+                <a className="imago wow">
+                  <img src="/img/productos/plano02.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
               </div>
             </div>
             <div
@@ -384,85 +197,10 @@ const Portfolio = ({ grid, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/productos/dogo`}>
-                  <a className="imago wow">
-                    <img src="/img/productos/porta-torcha.png" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>PORTA TORCHA </h6>
-                <span>ACCESORIO</span>
-              </div>
-            </div>
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items graphic wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/productos/dogo`}>
-                  <a className="imago wow">
-                    <img src="/img/productos/casco.png" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>MÁSCARA DE SOLDAR FOTO-SENSIBLE</h6>
-                <span>MÁSCARA</span>
-              </div>
-            </div>
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items graphic wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/productos/dogo`}>
-                  <a className="imago wow">
-                    <img src="/img/productos/disco.png" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>DISCO DE CORTE 115 X 1,6</h6>
-                <span>DISCO</span>
-              </div>
-            </div>
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items graphic wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/productos/dogo`}>
-                  <a className="imago wow">
-                    <img src="/img/productos/brocas.png" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>KIT DE BROCAS ESCALONADAS</h6>
-                <span>ACCESORIO</span>
+                <a className="imago wow">
+                  <img src="/img/productos/plano03.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
               </div>
             </div>
           </div>

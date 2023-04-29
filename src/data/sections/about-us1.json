@@ -1,8 +1,10 @@
 {
   "id": 1,
-  "smallTitle": "¿Quienes Somos?",
-  "title": "GEARS AUTOMATISMOS",
-  "content": "Nuestro compromiso es brindar productos de la más alta calidad, con el fin de garantizar la satisfacción total de nuestros clientes. Trabajamos con las mejores marcas del mercado, lo que nos permite ofrecer una amplia variedad de productos, desde motores de alto rendimiento hasta accesorios de última generación para la automatización de portones.",
+  "logo": "img/logo-dark.png",
+  "smallTitle": "Vivir En La Sierra",
+  "title1": "DESARROLLO SUSTENTABLE",
+  "title2": "PENSADO PARA VOS",
+  "title3":"EL FUTURO ES AHORA",
   "image": "/img/about.png"
  
 }

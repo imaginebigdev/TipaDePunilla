@@ -93,7 +93,7 @@ const Blogs4 = () => {
                       <div className="img">
                         <img
                           className="thumparallax"
-                          src="/img/blog/blog01.png"
+                          src="/img/blog/blog01.jpg"
                           alt=""
                         />
                       </div>
@@ -104,7 +104,7 @@ const Blogs4 = () => {
                       <div className="img">
                         <img
                           className="thumparallax"
-                          src="/img/blog/blog02.png"
+                          src="/img/blog/blog02.jpg"
                           alt=""
                         />
                       </div>
@@ -115,7 +115,29 @@ const Blogs4 = () => {
                       <div className="img">
                         <img
                           className="thumparallax"
-                          src="/img/blog/blog03.png"
+                          src="/img/blog/blog03.jpg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide">
+                    <div className="item wow fadeIn" data-wow-delay=".3s">
+                      <div className="img">
+                        <img
+                          className="thumparallax"
+                          src="/img/blog/blog04.jpg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide">
+                    <div className="item wow fadeIn" data-wow-delay=".3s">
+                      <div className="img">
+                        <img
+                          className="thumparallax"
+                          src="/img/blog/blog05.jpg"
                           alt=""
                         />
                       </div>
@@ -175,19 +197,15 @@ const Blogs4 = () => {
                   <SwiperSlide className="swiper-slide">
                     <div className="item wow fadeIn" data-wow-delay=".6s">
                       <div className="content">
-                        <div className="info">
-                          <a>OBJETIVOS</a>
-                        </div>
-                        <div className="title">
-                          <h4>
-                            Continuar ofreciendo soluciones de alta calidad
-                          </h4>
+                        <div className="title" style={{ color: "#025928" }}>
+                          <h4>DISEÑO</h4>
                         </div>
                         <div className="text">
                           <p>
-                            Y tecnología de punta en la automatización de
-                            portones, ampliar nuestra gama de productos y
-                            servicios para satisfacer las necesidades de
+                            Nuestras casas destacan por un diseño sofisticado y
+                            moderno, con materiales de alta calidad y atención a
+                            los detalles. Cada espacio es creado para ser
+                            funcional y reflejar la personalidad única de
                             nuestros clientes.
                           </p>
                         </div>
@@ -197,17 +215,14 @@ const Blogs4 = () => {
                   <SwiperSlide className="swiper-slide">
                     <div className="item wow fadeIn" data-wow-delay=".6s">
                       <div className="content">
-                        <div className="info">
-                          <a>OBJETIVOS</a>
-                        </div>
-                        <div className="title">
-                          <h4>Mantener un equipo de profesionales</h4>
+                        <div className="title" style={{ color: "#025928" }}>
+                          <h4>FINCA</h4>
                         </div>
                         <div className="text">
                           <p>
-                            Altamente capacitados que brindan un servicio
-                            personalizado y atención de calidad a nuestros
-                            clientes.
+                            TipalDePunilla cuenta con una finca rodeada de
+                            naturaleza, un espacio tranquilo y perfecto para
+                            relajarse y desconectar de la ciudad.
                           </p>
                         </div>
                       </div>
@@ -216,17 +231,48 @@ const Blogs4 = () => {
                   <SwiperSlide className="swiper-slide">
                     <div className="item wow fadeIn" data-wow-delay=".6s">
                       <div className="content">
-                        <div className="info">
-                          <a>OBJETIVOS</a>
-                        </div>
-                        <div className="title">
-                          <h4>Expandir nuestra presencia en el mercado</h4>
+                        <div className="title" style={{ color: "#025928" }}>
+                          <h4>VERDE</h4>
                         </div>
                         <div className="text">
                           <p>
-                            Llegando a más clientes y consolidándonos como
-                            líderes en la industria de la automatización de
-                            portones.
+                            Vivir en un barrio rodeado de naturaleza en las
+                            sierras es beneficioso para la salud y el bienestar,
+                            y ofrece la oportunidad de disfrutar de actividades
+                            al aire libre en un entorno natural.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide">
+                    <div className="item wow fadeIn" data-wow-delay=".6s">
+                      <div className="content">
+                        <div className="title" style={{ color: "#025928" }}>
+                          <h4>ARROYO</h4>
+                        </div>
+                        <div className="text">
+                          <p>
+                            El arroyo del barrio proporciona un ambiente natural
+                            adicional y puede tener efectos positivos en la
+                            salud física y mental de los residentes, al ser un
+                            lugar tranquilo para disfrutar de la naturaleza.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide">
+                    <div className="item wow fadeIn" data-wow-delay=".6s">
+                      <div className="content">
+                        <div className="title" style={{ color: "#025928" }}>
+                          <h4>SEGURIDAD</h4>
+                        </div>
+                        <div className="text">
+                          <p>
+                            Tipal de Punilla es un lugar seguro y tranquilo para
+                            vivir, con una baja tasa de delitos y una comunidad
+                            unida.
                           </p>
                         </div>
                       </div>

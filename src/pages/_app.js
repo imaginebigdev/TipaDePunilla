@@ -4,18 +4,21 @@ import Script from "next/script";
 import Cursor from "../components/cursor";
 import ScrollToTop from "../components/scrollToTop";
 import LoadingScreen from "../components/Loading-Screen";
+import WhatsAppButton from "../components/WhatsappButton/whatsapp-button";
+
 import "../styles/main.scss";
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>GEARS Automatismos</title>
-        <link rel="icon" href="/img/logo-gear.png" />
+        <title>TipalDePunilla</title>
+        <link rel="icon" href="/img/favicon.ico" />
       </Head>
       <Cursor />
       <LoadingScreen />
       <Component {...pageProps} />
+      <WhatsAppButton />
       <ScrollToTop />
       <Script id="wow" src="/js/wow.min.js"></Script>
       <Script
