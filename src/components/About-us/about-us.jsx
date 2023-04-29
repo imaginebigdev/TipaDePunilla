@@ -11,7 +11,7 @@ const AboutUs = () => {
           <div className="col-lg-5 valign md-mb50">
             <div className="mb-20 pt-0">
               <div>
-                <img src={AboutUs1Date.logo} />
+                <img src={AboutUs1Date.logo} alt="logo" />
               </div>
               <h6
                 className="fw-200 text-u ls10 mb-10"
@@ -48,7 +48,7 @@ const AboutUs = () => {
                 objectFit: "contain",
                 objectPosition: "center",
               }}
-              alt=""
+              alt="imgDate"
             />
           </div>
         </div>
