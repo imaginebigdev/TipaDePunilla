@@ -83,36 +83,11 @@ const IntroWithSlider = ({ sliderRef }) => {
                   className="bg-img valign"
                   style={{ backgroundImage: `url(${slide.image})` }}
                   data-overlay-dark="6"
-                >
-                  <div className="container">
-                    <div className="row justify-content-center">
-                      <div className="col-lg-8 col-md-10">
-                        <div className="caption center mt-30">
-                          <h1 className="color-font">{slide.title}</h1>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                ></div>
               </SwiperSlide>
             ))}
           </Swiper>
         ) : null}
-        {/* <div className="setone setwo">
-          <div
-            ref={navigationNextRef}
-            className="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer"
-          >
-            <i className="fas fa-chevron-right"></i>
-          </div>
-          <div
-            ref={navigationPrevRef}
-            className="swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer"
-          >
-            <i className="fas fa-chevron-left"></i>
-          </div>
-        </div>
-        <div ref={paginationRef} className="swiper-pagination top botm"></div> */}
 
         <div className="social-icon">
           <a
@@ -120,7 +95,7 @@ const IntroWithSlider = ({ sliderRef }) => {
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fab fa-tiktok"></i>
+            <i class="fab fa-tiktok"></i>
           </a>
           <a
             href="https://www.instagram.com/tipaldepunilla/"

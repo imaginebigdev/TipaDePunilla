@@ -155,13 +155,13 @@ span:hover {
     linear,
     left top,
     right top,
-    from(#025928),
-    color-stop(#025928),
+    from(#201c1a),
+    color-stop(#201c1a),
     to(#201c1a)
   );
-  background: -webkit-linear-gradient(left, #025928, #025928, #201c1a);
-  background: -o-linear-gradient(left, #025928, #025928, #201c1a);
-  background: linear-gradient(to right, #025928, #025928, #201c1a);
+  background: -webkit-linear-gradient(left, #201c1a, #201c1a, #201c1a);
+  background: -o-linear-gradient(left, #201c1a, #201c1a, #201c1a);
+  background: linear-gradient(to right, #201c1a, #201c1a, #201c1a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -171,13 +171,13 @@ span:hover {
     linear,
     left top,
     right top,
-    from(#025928),
-    color-stop(#025928),
+    from(#201c1a),
+    color-stop(#201c1a),
     to(#201c1a)
   );
-  background: -webkit-linear-gradient(left, #025928, #025928, #201c1a);
-  background: -o-linear-gradient(left, #025928, #025928, #201c1a);
-  background: linear-gradient(to right, #025928, #025928, #201c1a);
+  background: -webkit-linear-gradient(left, #201c1a, #201c1a, #201c1a);
+  background: -o-linear-gradient(left, #201c1a, #201c1a, #201c1a);
+  background: linear-gradient(to right, #201c1a, #201c1a, #201c1a);
 }
 
 .line {
@@ -188,13 +188,13 @@ span:hover {
     linear,
     left top,
     right top,
-    from(#025928),
-    color-stop(#025928),
+    from(#201c1a),
+    color-stop(#201c1a),
     to(#201c1a)
   );
-  background: -webkit-linear-gradient(left, #025928, #025928, #201c1a);
-  background: -o-linear-gradient(left, #025928, #025928, #201c1a);
-  background: linear-gradient(to right, #025928, #025928, #201c1a);
+  background: -webkit-linear-gradient(left, #201c1a, #201c1a, #201c1a);
+  background: -o-linear-gradient(left, #201c1a, #201c1a, #201c1a);
+  background: linear-gradient(to right, #201c1a, #201c1a, #201c1a);
 }
 
 .line.top {
@@ -1212,13 +1212,13 @@ span:hover {
     linear,
     left top,
     right top,
-    from(#025928),
-    color-stop(#025928),
+    from(#201c1a),
+    color-stop(#201c1a),
     to(#201c1a)
   );
-  background: -webkit-linear-gradient(left, #025928, #025928, #201c1a);
-  background: -o-linear-gradient(left, #025928, #025928, #201c1a);
-  background: linear-gradient(to right, #025928, #025928, #201c1a);
+  background: -webkit-linear-gradient(left, #201c1a, #201c1a, #201c1a);
+  background: -o-linear-gradient(left, #201c1a, #201c1a, #201c1a);
+  background: linear-gradient(to right, #201c1a, #201c1a, #201c1a);
   border-radius: 50%;
   -webkit-animation: moveCircle 3s linear infinite;
   animation: moveCircle 3s linear infinite;
@@ -2025,7 +2025,7 @@ body {
 .navbar .navbar-nav .nav-link {
   font-size: 16px;
   font-weight: 500;
-  color: #025928;
+  color: #201c1a;
   padding: 15px 7px;
   margin: 10px 15px;
 }
@@ -2157,8 +2157,8 @@ body {
 }
 
 .nav-scroll {
-  background: #025928;
-  border-color: #025928;
+  background: #201c1a;
+  border-color: #201c1a;
   padding: 0;
   position: fixed;
   top: -80px;
@@ -5924,9 +5924,9 @@ body {
   content: "";
   position: absolute;
   top: 20px;
-  left: 20px;
+  left: 0px;
   bottom: 20px;
-  right: 20px;
+  right: 0px;
   background: #fff;
   opacity: 0;
   -webkit-transition: all 0.4s;
@@ -5950,8 +5950,9 @@ body {
 }
 
 .work-carousel .noraidus .item-img {
-  height: 480px;
-  border-radius: 0;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
 }
 
 .work-carousel .noraidus .cont {

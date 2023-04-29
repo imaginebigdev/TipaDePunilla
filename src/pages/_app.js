@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>GEARS Automatismos</title>
+        <title>TipalDePunilla</title>
         <link rel="icon" href="/img/favicon.ico" />
       </Head>
       <Cursor />

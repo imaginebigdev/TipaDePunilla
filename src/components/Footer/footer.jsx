@@ -43,39 +43,50 @@ const Footer = ({ hideBGCOLOR }) => {
           <div className="col-lg-4">
             <div className="item md-mb50">
               <div className="title">
-                <h5>Novedades</h5>
+                <h5>DESTACADO</h5>
               </div>
               <ul>
                 <li>
                   <div className="img">
-                    <Link href="/">
-                      <a>
-                        <img src="/img/productos/potroplus.png" alt="" />
-                      </a>
-                    </Link>
+                    <a>
+                      <img src="/img/portfolio/logo02.png" alt="" />
+                    </a>
                   </div>
                   <div className="sm-post">
                     <a>
                       <p className="p-footer">
-                        POTRO PLUS SPEED: Modelo recomendado para portones de
-                        porte medio entre 3 y 4 de largo por 2 de altura
+                        Tipal de Punilla cuenta con un 5% de bosque nativo que
+                        contribuye a la preservación del medio ambiente.
                       </p>
                     </a>
                   </div>
                 </li>
                 <li>
                   <div className="img">
-                    <Link href="/">
-                      <a>
-                        <img src="/img/productos/potro.png" alt="" />
-                      </a>
-                    </Link>
+                    <a>
+                      <img src="/img/portfolio/logo04.png" alt="" />
+                    </a>
                   </div>
                   <div className="sm-post">
                     <a>
                       <p className="p-footer">
-                        POTRO 600: Modelo recomendado para portones
-                        domiciliarios entre 2 y 3 de largo por 2 de altura
+                        Vivir en las sierras significa disfrutar de aire puro,
+                        hermosos paisajes y un estilo de vida más relajado.
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div className="img">
+                    <a>
+                      <img src="/img/portfolio/logo03.png" alt="" />
+                    </a>
+                  </div>
+                  <div className="sm-post">
+                    <a>
+                      <p className="p-footer">
+                        La vida es más plena en una vivienda rodeada de áreas
+                        verdes. El contacto con la naturaleza mejora la salud.
                       </p>
                     </a>
                   </div>
@@ -113,7 +124,7 @@ const Footer = ({ hideBGCOLOR }) => {
               </div>
               <div className="copy-right">
                 <p className="p-footer">
-                  © 2023, GEARS AUTOMATISMOS. MADE WITH PASSION BY{" "}
+                  © 2023, TIPAL DE PUNILLA. MADE WITH PASSION BY{" "}
                   <Link href="https://imaginebig.dev">
                     <a target="_blank"> Imagine Big</a>
                   </Link>
