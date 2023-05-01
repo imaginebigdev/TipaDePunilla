@@ -3,29 +3,24 @@
     "id": 1,
     "title": "",
     "secTex": "",
-    "image": "/img/portfolio/logo01.png"
-    
+    "image": "/img/portfolio/1.png"
   },
   {
     "id": 2,
     "title": "",
     "secTex": "",
-    "image": "/img/portfolio/logo02.png"
-
+    "image": "/img/portfolio/2.png"
   },
   {
     "id": 3,
     "title": "",
     "secTex": "",
-    "image": "/img/portfolio/logo03.png"
-  
+    "image": "/img/portfolio/3.png"
   },
   {
     "id": 4,
     "title": "",
     "secTex": "",
-    "image": "/img/portfolio/logo04.png"
-    
+    "image": "/img/portfolio/4.png"
   }
-  
 ]

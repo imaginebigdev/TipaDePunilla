@@ -95,7 +95,7 @@ const IntroWithSlider = ({ sliderRef }) => {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="fab fa-tiktok"></i>
+            <i className="fab fa-tiktok"></i>
           </a>
           <a
             href="https://www.instagram.com/tipaldepunilla/"
