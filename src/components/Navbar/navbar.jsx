@@ -75,26 +75,10 @@ const Navbar = ({ lr, nr, theme }) => {
                 Productos
               </Link>
             </li>
-            {/*   <li className="nav-item">
-              <Link
-                className="nav-link"
-                to="clientes"
-                onClick={handleMobileDropdown}
-                smooth="true"
-                offset={50}
-                duration={500}
-              >
-                Clientes
-              </Link>
-            </li> */}
+
             <li className="nav-item">
-              <a
-                href="https://wa.me/543516668134"
-                target="_blank"
-                rel="noreferrer"
-                className="nav-link"
-              >
-                Contacto
+              <a href="/ubication" className="nav-link">
+                Ubicación
               </a>
             </li>
           </ul>

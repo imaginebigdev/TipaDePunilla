@@ -16,9 +16,9 @@ const Portfolio = ({ grid, filterPosition }) => {
           <div className="col-lg-8 col-md-10">
             <div className="sec-head text-center">
               <h6 className="wow fadeIn" data-wow-delay=".5s">
-                LA MAS ALTA CALIDAD
+                GALERÍA DE IMAGENES
               </h6>
-              <h3 className="wow color-font">Galeria de imagenes</h3>
+              <h3 className="wow color-font">TIPOLOGÍAS</h3>
             </div>
           </div>
         </div>
@@ -38,9 +38,11 @@ const Portfolio = ({ grid, filterPosition }) => {
               <span data-filter="*" className="active">
                 TODOS
               </span>
-              <span data-filter=".brand">EXTERIOR</span>
-              <span data-filter=".web">INTERIOR</span>
-              <span data-filter=".graphic">PLANOS</span>
+              <span data-filter=".loft">CASALOFT</span>
+              <span data-filter=".paso">CASAPASO</span>
+              <span data-filter=".duo">CASADUO</span>
+              <span data-filter=".suite">CASASUITE</span>
+              <span data-filter=".campo">CASACAMPO</span>
             </div>
           </div>
 
@@ -52,12 +54,12 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6 lg-mr"
                   : "col-12"
-              } items brand wow fadeInUp`}
+              } items campo wow fadeInUp`}
               data-wow-delay=".4s"
             >
               <div className="item-img">
                 <a className="imago wow">
-                  <img src="/img/productos/exterior01.jpg" alt="image" />
+                  <img src="/img/productos/casacampo01.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </a>
               </div>
@@ -70,12 +72,12 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items brand wow fadeInUp`}
+              } items campo wow fadeInUp`}
               data-wow-delay=".4s"
             >
               <div className="item-img">
                 <a className="imago wow">
-                  <img src="/img/productos/exterior02.jpg" alt="image" />
+                  <img src="/img/productos/casacampo02.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </a>
               </div>
@@ -88,12 +90,12 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items web wow fadeInUp`}
+              } items campo wow fadeInUp`}
               data-wow-delay=".4s"
             >
               <div className="item-img">
                 <a className="imago wow">
-                  <img src="/img/productos/interior01.jpg" alt="image" />
+                  <img src="/img/productos/casacampo03.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </a>
               </div>
@@ -106,12 +108,12 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items web wow fadeInUp`}
+              } items campo wow fadeInUp`}
               data-wow-delay=".4s"
             >
               <div className="item-img">
                 <a className="imago wow">
-                  <img src="/img/productos/interior02.jpg" alt="image" />
+                  <img src="/img/productos/casacampo04.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </a>
               </div>
@@ -124,12 +126,12 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items web wow fadeInUp`}
+              } items loft wow fadeInUp`}
               data-wow-delay=".4s"
             >
               <div className="item-img">
                 <a className="imago wow">
-                  <img src="/img/productos/interior03.jpg" alt="image" />
+                  <img src="/img/productos/casaloft01.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </a>
               </div>
@@ -141,12 +143,12 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items web wow fadeInUp`}
+              } items loft wow fadeInUp`}
               data-wow-delay=".4s"
             >
               <div className="item-img">
                 <a className="imago wow">
-                  <img src="/img/productos/interior04.jpg" alt="image" />
+                  <img src="/img/productos/casaloft02.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </a>
               </div>
@@ -159,12 +161,12 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items graphic wow fadeInUp`}
+              } items loft wow fadeInUp`}
               data-wow-delay=".4s"
             >
               <div className="item-img">
                 <a className="imago wow">
-                  <img src="/img/productos/plano01.jpg" alt="image" />
+                  <img src="/img/productos/casaloft03.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </a>
               </div>
@@ -176,12 +178,12 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items graphic wow fadeInUp`}
+              } items loft wow fadeInUp`}
               data-wow-delay=".4s"
             >
               <div className="item-img">
                 <a className="imago wow">
-                  <img src="/img/productos/plano02.jpg" alt="image" />
+                  <img src="/img/productos/casaloft04.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </a>
               </div>
@@ -193,12 +195,319 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items graphic wow fadeInUp`}
+              } items loft wow fadeInUp`}
               data-wow-delay=".4s"
             >
               <div className="item-img">
                 <a className="imago wow">
-                  <img src="/img/productos/plano03.jpg" alt="image" />
+                  <img src="/img/productos/casaloft05.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
+              </div>
+            </div>
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items paso wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <a className="imago wow">
+                  <img src="/img/productos/casapaso01.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
+              </div>
+            </div>
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items paso wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <a className="imago wow">
+                  <img src="/img/productos/casapaso02.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
+              </div>
+            </div>
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items paso wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <a className="imago wow">
+                  <img src="/img/productos/casapaso03.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
+              </div>
+            </div>
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items paso wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <a className="imago wow">
+                  <img src="/img/productos/casapaso04.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
+              </div>
+            </div>
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items paso wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <a className="imago wow">
+                  <img src="/img/productos/casapaso05.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
+              </div>
+            </div>
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items duo wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <a className="imago wow">
+                  <img src="/img/productos/casaduo01.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
+              </div>
+            </div>
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items duo wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <a className="imago wow">
+                  <img src="/img/productos/casaduo02.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
+              </div>
+            </div>
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items duo wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <a className="imago wow">
+                  <img src="/img/productos/casaduo03.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
+              </div>
+            </div>
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items duo wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <a className="imago wow">
+                  <img src="/img/productos/casaduo04.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
+              </div>
+            </div>
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items duo wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <a className="imago wow">
+                  <img src="/img/productos/casaduo05.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
+              </div>
+            </div>
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items duo wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <a className="imago wow">
+                  <img src="/img/productos/casaduo06.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
+              </div>
+            </div>
+
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items duo wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <a className="imago wow">
+                  <img src="/img/productos/casaduo08.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
+              </div>
+            </div>
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items duo wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <a className="imago wow">
+                  <img src="/img/productos/casaduo09.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
+              </div>
+            </div>
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items duo wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <a className="imago wow">
+                  <img src="/img/productos/casaduo10.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
+              </div>
+            </div>
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items suite wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <a className="imago wow">
+                  <img src="/img/productos/casasuite01.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
+              </div>
+            </div>
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items suite wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <a className="imago wow">
+                  <img src="/img/productos/casasuite02.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
+              </div>
+            </div>
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items suite wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <a className="imago wow">
+                  <img src="/img/productos/casasuite03.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
+              </div>
+            </div>
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items suite wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <a className="imago wow">
+                  <img src="/img/productos/casasuite04.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </a>
               </div>

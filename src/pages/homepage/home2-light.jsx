@@ -53,7 +53,7 @@ const Homepage2 = () => {
         <AboutUs4 />
         <Services style="3item" />
         <Works />
-        <Portfolio grid={3} filterPosition="center" />
+        <Portfolio grid={2} filterPosition="center" />
         <Blogs4 />
         <CallToAction />
         <Footer />
