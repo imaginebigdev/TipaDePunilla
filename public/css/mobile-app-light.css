@@ -42,7 +42,7 @@
 ---------------------------------------------------------------- */
 /* ====================== [ Start typography  ] ====================== */
 body {
-  font-family: "Manrope", sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 h1 {
@@ -483,7 +483,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 .accordion.shadwo .item .accordion-info {
   margin-top: 20px;
   display: none;
-  transition: height .5s ease;
+  transition: height 0.5s ease;
   overflow: hidden;
 }
 
@@ -548,17 +548,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
   left: -1px;
   right: -1px;
   bottom: -1px;
-  background-image: -webkit-gradient(
-    linear,
-    right top,
-    left top,
-    from(#17c0e9),
-    color-stop(#c96ddd),
-    to(#f45162)
-  );
-  background-image: -webkit-linear-gradient(right, #17c0e9, #c96ddd, #f45162);
-  background-image: -o-linear-gradient(right, #17c0e9, #c96ddd, #f45162);
-  background-image: linear-gradient(to left, #17c0e9, #c96ddd, #f45162);
+  background: #025928;
   opacity: 0;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -569,11 +559,12 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: center;
 }
 
-.app-services .item .item-tit .icon {
+/* .app-services .item .item-tit .icon {
   margin-right: 20px;
-}
+} */
 
 .app-services .item .item-tit .icon svg {
   width: 40px;
@@ -582,13 +573,16 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 
 .app-services .item .item-tit .icon span {
   font-size: 45px;
-  color: #f45162;
+  color: #025928;
 }
 
-.app-services .item .item-tit .text-tit h5 {
+.app-services .item .item-tit .text-tit h6 {
   font-size: 22px;
   margin-top: 10px;
-  position: relative;
+}
+
+.textAling {
+  text-align: center;
 }
 
 .app-services .item p {
