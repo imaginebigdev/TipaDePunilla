@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { Link } from "react-scroll";
+import Link2 from "next/link";
 import appData from "../../data/app.json";
 import { handleDropdown, handleMobileDropdown } from "../../common/navbar";
 
@@ -77,9 +78,9 @@ const Navbar = ({ lr, nr, theme }) => {
             </li>
 
             <li className="nav-item">
-              <a href="/ubication" className="nav-link">
-                Ubicación
-              </a>
+              <Link2 href="/ubication">
+                <a className="nav-link">Ubicación</a>
+              </Link2>
             </li>
           </ul>
         </div>
