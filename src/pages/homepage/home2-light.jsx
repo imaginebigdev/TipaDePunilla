@@ -11,6 +11,7 @@ import Blogs4 from "../../components/blogs/Blogs4/blogs4";
 import AboutUs from "../../components/About-us/about-us";
 import Works from "../../components/Works/works";
 import AboutUs4 from "../../components/About-us4/about-us4";
+import Services8 from "../../components/Services8/services8";
 
 const Homepage2 = () => {
   const fixedSlider = React.useRef(null);
@@ -45,13 +46,14 @@ const Homepage2 = () => {
     });
   }, [fixedSlider, MainContent, navbarRef]);
   return (
-    <LightTheme>
+    <LightTheme mobileappstyle>
       <Navbar nr={navbarRef} lr={logoRef} />
       <IntroWithSlider sliderRef={fixedSlider} />
       <div ref={MainContent} className="main-content">
         <AboutUs />
         <AboutUs4 />
         <Services style="3item" />
+        <Services8 />
         <Works />
         <Portfolio grid={2} filterPosition="center" />
         <Blogs4 />
