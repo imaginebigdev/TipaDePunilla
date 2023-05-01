@@ -30,44 +30,18 @@ const AboutIntro = () => {
               <p className="wow txt mb-10 words chars splitting" data-splitting>
                 {AboutInfo1Data.paragraph2}
               </p>
-              {showMore && (
-                <>
-                  <p
-                    className="wow txt mb-10 words chars splitting"
-                    data-splitting
-                  >
-                    {AboutInfo1Data.paragraph3}
-                  </p>
-                  <p
-                    className="wow txt mb-10 words chars splitting"
-                    data-splitting
-                  >
-                    {AboutInfo1Data.paragraph4}
-                  </p>
-                  <p
-                    className="wow txt mb-10 words chars splitting"
-                    data-splitting
-                  >
-                    {AboutInfo1Data.paragraph6}
-                  </p>
-                  <p
-                    className="wow txt mb-10 words chars splitting"
-                    data-splitting
-                  >
-                    {AboutInfo1Data.paragraph7}
-                  </p>
-                </>
-              )}
-              {!showMore && (
-                <button className="btn-leermas" onClick={handleShowMore}>
-                  Leer más...
-                </button>
-              )}
-              {showMore && (
-                <button className="btn-leermas" onClick={handleShowLess}>
-                  Leer menos...
-                </button>
-              )}
+            </div>
+          </div>
+        </div>
+        <div className="row mt-50">
+          <div className="col-md-6">
+            <div className="mb-10">
+              <img src="/img/slid/slid03.jpg" alt="" />
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="mb-10">
+              <img src="/img/slid/slid04.jpg" alt="" />
             </div>
           </div>
         </div>

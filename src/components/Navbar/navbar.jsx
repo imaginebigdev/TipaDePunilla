@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { Link } from "react-scroll";
+import Link2 from "next/link";
 import appData from "../../data/app.json";
 import { handleDropdown, handleMobileDropdown } from "../../common/navbar";
 
@@ -75,27 +76,11 @@ const Navbar = ({ lr, nr, theme }) => {
                 Productos
               </Link>
             </li>
-            {/*   <li className="nav-item">
-              <Link
-                className="nav-link"
-                to="clientes"
-                onClick={handleMobileDropdown}
-                smooth="true"
-                offset={50}
-                duration={500}
-              >
-                Clientes
-              </Link>
-            </li> */}
+
             <li className="nav-item">
-              <a
-                href="https://wa.me/543516668134"
-                target="_blank"
-                rel="noreferrer"
-                className="nav-link"
-              >
-                Contacto
-              </a>
+              <Link2 href="/ubication">
+                <a className="nav-link">Ubicación</a>
+              </Link2>
             </li>
           </ul>
         </div>

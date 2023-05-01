@@ -8,15 +8,13 @@ const PagesHeader = () => {
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="cont mt-100 mb-50 text-center">
-              <h1 className="color-font fw-700">
-                GEARS AUTOMATISMOS: soluciones de alta calidad y tecnología de
-                punta.
-              </h1>
+              <h1 className="color-font fw-700">TipalDePunilla</h1>
+              <h6 className="color-font fw-700 ls3">VIVIR EN LA SIERRAS</h6>
             </div>
           </div>
           <div className="col-lg-10">
             <div className="img">
-              <img src="/img/slid/slid04.png" alt="image" />
+              <img src="/img/slid/slid02.jpg" alt="image" />
             </div>
           </div>
         </div>

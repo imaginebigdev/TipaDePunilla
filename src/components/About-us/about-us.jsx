@@ -37,6 +37,11 @@ const AboutUs = () => {
               >
                 {AboutUs1Date.title3}
               </h6>
+              <Link href="/about">
+                <a className="butn bord curve mt-30">
+                  <span>Leer Más</span>
+                </a>
+              </Link>
             </div>
           </div>
           <div className="col-lg-7 img ">
