@@ -54,7 +54,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6 lg-mr"
                   : "col-12"
-              } items campo wow fadeInUp`}
+              } items campo `}
               /* data-wow-delay=".4s" */
             >
               <div className="item-img">
@@ -70,7 +70,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items campo wow fadeInUp`}
+              } items campo `}
               /* data-wow-delay=".4s" */
             >
               <div className="item-img">
@@ -86,7 +86,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items campo wow fadeInUp`}
+              } items campo `}
               /* data-wow-delay=".4s" */
             >
               <div className="item-img">
@@ -102,7 +102,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items campo wow fadeInUp`}
+              } items campo `}
               /* data-wow-delay=".4s" */
             >
               <div className="item-img">
@@ -118,7 +118,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items loft wow fadeInUp`}
+              } items loft `}
               /* data-wow-delay=".4s" */
             >
               <div className="item-img">
@@ -133,7 +133,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items loft wow fadeInUp`}
+              } items loft `}
               /* data-wow-delay=".4s" */
             >
               <div className="item-img">
@@ -149,7 +149,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items loft wow fadeInUp`}
+              } items loft `}
               /* data-wow-delay=".4s" */
             >
               <div className="item-img">
@@ -164,7 +164,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items loft wow fadeInUp`}
+              } items loft `}
               /* data-wow-delay=".4s" */
             >
               <div className="item-img">
@@ -179,7 +179,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items loft wow fadeInUp`}
+              } items loft `}
               /* data-wow-delay=".4s" */
             >
               <div className="item-img">
@@ -194,7 +194,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items paso wow fadeInUp`}
+              } items paso `}
               /* data-wow-delay=".4s" */
             >
               <div className="item-img">
@@ -209,7 +209,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items paso wow fadeInUp`}
+              } items paso `}
               /* data-wow-delay=".4s" */
             >
               <div className="item-img">
@@ -224,7 +224,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items paso wow fadeInUp`}
+              } items paso `}
               /* data-wow-delay=".4s" */
             >
               <div className="item-img">
@@ -239,7 +239,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items paso wow fadeInUp`}
+              } items paso `}
               /* data-wow-delay=".4s" */
             >
               <div className="item-img">
@@ -254,7 +254,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items paso wow fadeInUp`}
+              } items paso `}
               /* data-wow-delay=".4s" */
             >
               <div className="item-img">
@@ -269,7 +269,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items duo wow fadeInUp`}
+              } items duo `}
               /* data-wow-delay=".4s" */
             >
               <div className="item-img">
@@ -284,7 +284,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items duo wow fadeInUp`}
+              } items duo `}
               /* data-wow-delay=".4s" */
             >
               <div className="item-img">
@@ -299,7 +299,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items duo wow fadeInUp`}
+              } items duo `}
               /* data-wow-delay=".4s" */
             >
               <div className="item-img">
@@ -314,7 +314,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items duo wow fadeInUp`}
+              } items duo `}
               /* data-wow-delay=".4s" */
             >
               <div className="item-img">
@@ -329,7 +329,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items duo wow fadeInUp`}
+              } items duo `}
               /* data-wow-delay=".4s" */
             >
               <div className="item-img">
@@ -344,7 +344,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items duo wow fadeInUp`}
+              } items duo `}
               /* data-wow-delay=".4s" */
             >
               <div className="item-img">
@@ -360,7 +360,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items duo wow fadeInUp`}
+              } items duo `}
               /* data-wow-delay=".4s" */
             >
               <div className="item-img">
@@ -375,7 +375,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items duo wow fadeInUp`}
+              } items duo `}
               /* data-wow-delay=".4s" */
             >
               <div className="item-img">
@@ -390,7 +390,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items duo wow fadeInUp`}
+              } items duo `}
               /* data-wow-delay=".4s" */
             >
               <div className="item-img">
@@ -405,7 +405,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items suite wow fadeInUp`}
+              } items suite `}
               /* data-wow-delay=".4s" */
             >
               <div className="item-img">
@@ -420,7 +420,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items suite wow fadeInUp`}
+              } items suite `}
               /* data-wow-delay=".4s" */
             >
               <div className="item-img">
@@ -435,7 +435,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items suite wow fadeInUp`}
+              } items suite `}
               data-wow-delay=".4s"
             >
               <div className="item-img">
@@ -450,7 +450,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items suite wow fadeInUp`}
+              } items suite `}
               data-wow-delay=".4s"
             >
               <div className="item-img">

@@ -37,7 +37,7 @@ const AboutUs = () => {
               >
                 {AboutUs1Date.title3}
               </h6>
-              <Link href="/about">
+              <Link href="/nosotros">
                 <a className="butn bord curve mt-30">
                   <span>Leer Más</span>
                 </a>
