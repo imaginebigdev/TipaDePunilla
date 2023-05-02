@@ -7,7 +7,7 @@ const Services8 = () => {
         <div className="row justify-content-center">
           <div className="col-lg-7 col-md-10">
             <div className="s-head text-center mb-80">
-              <h2>Servicios en todos los barrios</h2>
+              <h2>Servicios en Tipal de Punilla</h2>
             </div>
           </div>
         </div>
