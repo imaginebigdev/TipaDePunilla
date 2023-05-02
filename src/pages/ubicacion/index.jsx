@@ -5,14 +5,15 @@ import LightTheme from "../../layouts/Light";
 import ContactHeader from "../../components/Contact-header/contact-header";
 import ContactForm from "../../components/Contact-form/contact-form";
 import NavbarArch from "../../components/Navbar-arch/navbar-arch";
+import appData from "../../data/app.json";
 
 const Contact = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
 
   React.useEffect(() => {
-    document.querySelector("body").classList.add("contact-page");
-
+    var navbar = navbarRef.current,
+      logo = logoRef.current;
     var navbar = navbarRef.current,
       logo = logoRef.current;
     if (window.pageYOffset > 300) {
@@ -23,13 +24,12 @@ const Contact = () => {
     window.addEventListener("scroll", () => {
       if (window.pageYOffset > 300) {
         navbar.classList.add("nav-scroll");
+        logo.setAttribute("src", appData.darkLogo);
       } else {
         navbar.classList.remove("nav-scroll");
+        logo.setAttribute("src", appData.lightLogo);
       }
     });
-    return () => {
-      document.querySelector("body").classList.remove("contact-page");
-    };
   }, [navbarRef]);
 
   return (
