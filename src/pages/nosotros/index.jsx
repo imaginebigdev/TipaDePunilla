@@ -7,7 +7,7 @@ import AboutIntro from "../../components/About-intro";
 import LightTheme from "../../layouts/Light";
 
 import appData from "../../data/app.json";
-import MinimalArea from "../../components/Minimal-Area/minimal-area";
+
 import NavbarArch from "../../components/Navbar-arch/navbar-arch";
 import WhatsAppButton from "../../components/WhatsappButton/whatsapp-button";
 
