@@ -26,7 +26,7 @@ const CallToAction = ({ img }) => {
 
           <div className="col-md-4 col-lg-3 valign">
             <a
-              href="https://wa.me/543516668134"
+              href="https://wa.me/5493513065851"
               target="_blank"
               rel="noreferrer"
               className="butn bord curve wow fadeInUp"
