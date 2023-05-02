@@ -5,13 +5,13 @@ import CallToAction from "../../components/Call-to-action/call-to-action";
 import Footer from "../../components/Footer/footer";
 import LightTheme from "../../layouts/Light";
 import Portfolio from "../../components/Portfolio/portfolio";
-import IntroWithSlider from "../../components/Intro-with-slider/intro-with-slider";
 import appData from "../../data/app.json";
 import Blogs4 from "../../components/blogs/Blogs4/blogs4";
 import AboutUs from "../../components/About-us/about-us";
 import Works from "../../components/Works/works";
 import AboutUs4 from "../../components/About-us4/about-us4";
 import Services8 from "../../components/Services8/services8";
+import ContactSlid from "../../components/Contact-slid/contact-slid";
 
 const Homepage2 = () => {
   const fixedSlider = React.useRef(null);
@@ -48,14 +48,14 @@ const Homepage2 = () => {
   return (
     <LightTheme mobileappstyle>
       <Navbar nr={navbarRef} lr={logoRef} />
-      <IntroWithSlider sliderRef={fixedSlider} />
+      <ContactSlid />
       <div ref={MainContent} className="main-content">
         <AboutUs />
         <AboutUs4 />
-        <Services style="3item" />
         <Services8 />
         <Works />
         <Portfolio grid={2} filterPosition="center" />
+        <Services style="3item" />
         <Blogs4 />
         <CallToAction />
         <Footer />

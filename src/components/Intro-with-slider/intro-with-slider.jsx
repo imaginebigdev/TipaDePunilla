@@ -11,6 +11,8 @@ import "swiper/css/navigation";
 import removeSlashFromPagination from "../../common/removeSlashpagination";
 import fadeWhenScroll from "../../common/fadeWhenScroll";
 
+import { Formik, Form, Field } from "formik";
+
 SwiperCore.use([Navigation, Pagination, Parallax]);
 
 const IntroWithSlider = ({ sliderRef }) => {
@@ -79,11 +81,61 @@ const IntroWithSlider = ({ sliderRef }) => {
           >
             {introData.map((slide) => (
               <SwiperSlide key={slide.id} className="swiper-slide">
-                <div
-                  className="bg-img valign"
-                  style={{ backgroundImage: `url(${slide.image})` }}
-                  data-overlay-dark="6"
-                ></div>
+                <div className="bg-imagen" data-overlay-dark="6">
+                  <div className="form md-mb50">
+                    <h4 className="fw-700 color-font mb-50">
+                      Te interesa este proyecto?
+                    </h4>
+                    <Formik>
+                      <Form
+                        /* onSubmit={sendEmail} */ autoComplete="off"
+                        id="contact-form"
+                      >
+                        <div className="messages" /* ref={messageRef} */></div>
+                        <div className="controls">
+                          <div className="form-group">
+                            <Field
+                              id="form_name"
+                              type="text"
+                              name="name"
+                              /*    value={input.name} */
+                              placeholder="Nombre Completo"
+                              required="required"
+                              /*    onChange={(e) => handleOnChange(e)} */
+                            />
+                          </div>
+                          <div className="form-group">
+                            <Field
+                              id="form_email"
+                              type="email"
+                              name="email"
+                              placeholder="Email"
+                              /*  onChange={(e) => handleOnChange(e)}
+                              value={input.email} */
+                            />
+                            {/*  {errors.email ? <div>{errors.email}</div> : null} */}
+                          </div>
+                        </div>
+                        <div className="form-group">
+                          <Field
+                            as="textarea"
+                            id="form_message"
+                            name="message"
+                            placeholder="Mensaje"
+                            rows="4"
+                            required="required"
+                            /*  onChange={(e) => handleOnChange(e)}
+                            value={input.message} */
+                          />
+                        </div>
+
+                        <button type="submit" className="butn bord">
+                          <span>Enviar Mensaje</span>
+                        </button>
+                      </Form>
+                    </Formik>
+                  </div>
+                </div>
               </SwiperSlide>
             ))}
           </Swiper>
