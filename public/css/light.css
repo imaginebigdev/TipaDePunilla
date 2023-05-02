@@ -8182,7 +8182,7 @@ body {
 
 .contact .form input,
 .contact .form textarea {
-  color: #fff;
+  color: #000;
   width: 100%;
   padding: 15px 0;
   background: transparent;
@@ -8233,6 +8233,68 @@ body {
   width: 100%;
   height: 60vh;
 }
+
+.bg-imagen {
+/*    position:absolute; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/img/productos/casaduo02.jpg');
+  background-size: cover;
+  animation: changeImage 10s infinite alternate;
+}
+
+@keyframes changeImage {
+  0% {
+    background-image: url('/img/productos/casaduo02.jpg');
+  }
+ /*  20% {
+    background-image: url('/img/productos/casacampo03.jpg');
+  } */
+  40% {
+    background-image: url('/img/productos/casasuite02.jpg');
+  }
+ /*  60% {
+    background-image: url('/img/productos/casapaso02.jpg');
+  } */
+  80% {
+    background-image: url('/img/productos/casacampo03.jpg');
+  }
+  100% {
+    background-image: url('/img/productos/casaduo02.jpg');
+  }
+}
+
+.bg-form {
+  position: relative; /* Para que el pseudo-elemento se ubique dentro de este contenedor */
+  margin: 0 auto; /* Para centrar horizontalmente */
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-form::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  transform: skewY(-5deg); /* Inclina el pseudo-elemento */
+  background-image: linear-gradient(to right bottom, #000, #000); /* Crea la diagonal */
+  opacity: 0.5; /* Ajusta la opacidad para que no tape completamente el fondo */
+  z-index: -1; /* Ubica el pseudo-elemento detrás del formulario */
+}
+
+.form {
+  background-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px; 
+  color:#000;
+}
+
 
 /* ====================== [ End contact ] ====================== */
 /* ====================== [ Start Footer ] ====================== */
@@ -8409,6 +8471,11 @@ footer .item .copy-right p a {
   height: auto;
 }
 @media screen and (max-width: 991px) {
+
+  .mouse-cursor{
+    display: none;
+  }
+
   .bg-img {
     background-position: center !important;
   }
@@ -8812,6 +8879,11 @@ footer .item .copy-right p a {
 }
 
 @media screen and (max-width: 767px) {
+
+  .mouse-cursor{
+    display: none;
+  }
+  
   .sm-mb10 {
     margin-bottom: 10px;
   }
@@ -9207,6 +9279,11 @@ footer .item .copy-right p a {
 }
 
 @media screen and (max-width: 480px) {
+
+  .mouse-cursor{
+    display: none;
+  }
+
   .navbar .navbar-nav .nav-link {
     color: #fff;
   }

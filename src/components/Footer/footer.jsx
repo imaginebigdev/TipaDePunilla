@@ -48,24 +48,18 @@ const Footer = ({ hideBGCOLOR }) => {
               <ul>
                 <li>
                   <div className="img">
-                    <a>
-                      <img src="/img/portfolio/logo02.png" alt="" />
-                    </a>
+                    <img src="/img/portfolio/1.png" alt="" />
                   </div>
                   <div className="sm-post">
-                    <a>
-                      <p className="p-footer">
-                        Tipal de Punilla cuenta con un 5% de bosque nativo que
-                        contribuye a la preservación del medio ambiente.
-                      </p>
-                    </a>
+                    <p className="p-footer">
+                      Tipal de Punilla cuenta con un 5% de bosque nativo que
+                      contribuye a la preservación del medio ambiente.
+                    </p>
                   </div>
                 </li>
                 <li>
                   <div className="img">
-                    <a>
-                      <img src="/img/portfolio/logo04.png" alt="" />
-                    </a>
+                    <img src="/img/portfolio/3.png" alt="" />
                   </div>
                   <div className="sm-post">
                     <a>
@@ -79,7 +73,7 @@ const Footer = ({ hideBGCOLOR }) => {
                 <li>
                   <div className="img">
                     <a>
-                      <img src="/img/portfolio/logo03.png" alt="" />
+                      <img src="/img/portfolio/2.png" alt="" />
                     </a>
                   </div>
                   <div className="sm-post">
