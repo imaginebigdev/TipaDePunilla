@@ -15,7 +15,7 @@ const AboutUs4 = () => {
           </div>
           <div className="col-lg-4 valign">
             <div className="cont full-width">
-              <h4 className="color-font">Vivir En La Sierra...</h4>
+              <h4 className="color-font">Vivir En Las Sierras...</h4>
               <h6 className="pt-30">
                 Es sinónimo de tranquilidad, aire puro y contacto con la
                 naturaleza.
