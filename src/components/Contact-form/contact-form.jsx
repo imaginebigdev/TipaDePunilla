@@ -13,13 +13,13 @@ const ContactForm = () => {
               </h4>
             </div>
             <p>
-              Es una comuna a 20 km de Rosario, dentro de Santa María de Punilla
-              ciudad serrana con todos los servicios. Santa María registra un
-              crecimiento demográfico de un 30% en los últimos años, considerada
-              como ciudad icono de la cultura y la música. Los amaneceres y los
-              atardeceres ofrecen un escenario auditivo de fauna silvestre que
-              se disfruta tanto para hacer deportes como para cualquier
-              actividad de ocio o recreación.
+              Es una comuna a 20 km de Villa Carlos Paz, dentro de Santa María
+              de Punilla ciudad serrana con todos los servicios. Santa María
+              registra un crecimiento demográfico de un 30% en los últimos años,
+              considerada como ciudad icono de la cultura y la música. Los
+              amaneceres y los atardeceres ofrecen un escenario auditivo de
+              fauna silvestre que se disfruta tanto para hacer deportes como
+              para cualquier actividad de ocio o recreación.
             </p>
           </div>
           <div className="col-lg-5 offset-lg-1">
