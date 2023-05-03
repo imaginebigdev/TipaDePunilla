@@ -13,14 +13,14 @@ const AboutUs = () => {
               <div>
                 <img src={AboutUs1Date.logo} alt="logo" />
               </div>
-              <h6
+              {/*     <h6
                 className="fw-200 text-u ls10 mb-10"
                 style={{ textAlign: "center" }}
               >
                 {AboutUs1Date.smallTitle}
-              </h6>
+              </h6> */}
               <h6
-                className="fw-600 text-u ls0 mb-0 pt-30 color-font"
+                className="fw-600 text-u ls0 mb-0 pt-0 color-font"
                 style={{ textAlign: "start" }}
               >
                 {AboutUs1Date.title1}

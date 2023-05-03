@@ -2153,7 +2153,7 @@ body {
 }
 
 .navbar .logo {
-  width: 150px;
+  width: 120px;
 }
 
 .nav-scroll {
@@ -5244,7 +5244,7 @@ body {
 
 .portfolio .filtering span {
   font-weight: 500;
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 1px;
   text-transform: uppercase;
   margin: 0 20px;
@@ -8268,7 +8268,7 @@ body {
 
 .bg-form {
   position: relative; /* Para que el pseudo-elemento se ubique dentro de este contenedor */
-  margin: 0 auto; /* Para centrar horizontalmente */
+  margin: 50px auto; /* Para centrar horizontalmente */
   text-align: center;
   width: 100%;
   height: 100%;
@@ -8289,7 +8289,7 @@ body {
 
 .form {
   background-color: #fff;
-  margin-top: 20px;
+  margin-top: 60px;
   margin-bottom: 20px;
   padding: 30px; 
   color:#000;

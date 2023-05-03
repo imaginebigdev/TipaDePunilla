@@ -67,7 +67,7 @@ const ContactSlid = () => {
 
   return (
     <section className="contact section-padding">
-      <div className="bg-imagen">
+      <div className="bg-imagen pt-50">
         <div className="container">
           <div className="row">
             <div className="bg-form">

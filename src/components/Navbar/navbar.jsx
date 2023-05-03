@@ -73,7 +73,7 @@ const Navbar = ({ lr, nr, theme }) => {
                 offset={50}
                 duration={500}
               >
-                Productos
+                Casas
               </Link>
             </li>
 
