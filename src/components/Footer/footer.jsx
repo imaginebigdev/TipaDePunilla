@@ -52,8 +52,9 @@ const Footer = ({ hideBGCOLOR }) => {
                   </div>
                   <div className="sm-post">
                     <p className="p-footer">
-                      Tipal de Punilla cuenta con un 5% de bosque nativo que
-                      contribuye a la preservación del medio ambiente.
+                      Contribuímos a la preservación del medio ambiente local
+                      plantando árboles para incrementar el 5% de bosque nativo
+                      actual.
                     </p>
                   </div>
                 </li>
