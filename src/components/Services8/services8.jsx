@@ -100,11 +100,11 @@ const Services8 = () => {
             <div className="item mb-30">
               <div className="item-tit mb-15">
                 <div className="icon">
-                  <span className="pe-7s-filter"></span>
+                  <span className="pe-7s-lock"></span>
                 </div>
               </div>
               <div className="text-tit textAling">
-                <h6>Cloacas</h6>
+                <h6>Seguridad</h6>
               </div>
             </div>
           </div>
